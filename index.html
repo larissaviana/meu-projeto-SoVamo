@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>Exemplo Bootstrap</title>
+
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+		<!-- MEU CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	</head>
+
+	<body>
+
+		<!-- BARRA DE NAVEGACAO FIXA COM LOGO E NOME -->
+		<nav class="navbar navbar-light bg-primary fixed-top">
+		  <a class="navbar-brand" href="#">
+		    <img src="https://mastertech.tech/wp-content/themes/bridge/img/logo_black.png" width="30" height="30" class="d-inline-block align-top" alt="">
+		    <button class="btn">Menu</button>
+		    Bootstrap
+		  </a>
+		</nav>
+
+		<!-- DETERMINA O USO DA GRID DE 12 -->
+		<header class="container-fluid">
+
+				<div class="row espacamento">
+					<div class="col-sm-6 offset-sm-3 coluna">
+						<h1>SóVamo!</h1>
+
+						<p>descubra o que, quando e aonde</p>
+					</div>
+				</div>
+
+			<div class="row">
+				
+				<div class="col-sm-3 offset-sm-2 coluna">
+					
+					<button type="button" class="btn btn-primary btn-block">O que tem pra hoje?</button>
+
+				</div>
+				
+				<div class="col-sm-3 offset-sm-2 coluna">
+				
+					<button type="button" class="btn btn-danger btn-block">Minha agenda</button>
+
+				</div>
+			
+			</div>
+
+		</header>
+
+
+		<!-- PRIMEIRA SECAO - EVENTOS POR DATAS -->
+
+		<section class="datas container-fluid">
+			<h4>Datas</h4>
+
+			<div class="row">
+				
+				<div class="col-sm-3 coluna">
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://2.bp.blogspot.com/-wQYdlfp6mvI/V1sic1xN7XI/AAAAAAAAB4Y/5tFOwlJSnW0j8qr6V2lKkp0V_D311LAEgCLcB/s1600/balada.jpg" alt="Card image cap">
+					  	<div class="card-body">
+					    	<h5 class="card-title">Quarta-feira 23/01 | 20h</h5>
+					    	<p class="card-text">Balada X<br>Anhangabau</br>$</p>
+					    	<a href="#" class="btn btn-primary">Saiba mais</a>
+					 	</div>
+					</div>
+				</div>
+
+				<div class="col-sm-3 coluna">
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://images.unsplash.com/photo-1496024840928-4c417adf211d?auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+					  	<div class="card-body">
+					    	<h5 class="card-title">Quarta-feira 23/01 | 23h</h5>
+					    	<p class="card-text">Festa Q<br>Nos Trilhos</br>$</p>
+					    	<a href="#" class="btn btn-primary">Saiba mais</a>
+					 	</div>
+					</div>
+				</div>
+
+				<div class="col-sm-3 coluna">
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://images.unsplash.com/photo-1496337589254-7e19d01cec44?auto=format&fit=crop&w=750&q=80" alt="Card image cap">
+					  	<div class="card-body">
+					    	<h5 class="card-title">Quinta-feira 24/01 | 23h</h5>
+					    	<p class="card-text">Evento P<br>Memorial da América Latina</br>Grátis<br></p>
+					    	<a href="#" class="btn btn-primary">Saiba mais</a>
+					 	</div>
+					</div>
+				</div>
+
+				<div class="col-sm-3 coluna">
+
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?auto=format&fit=crop&w=750&q=80g" alt="Card image cap">
+					  	<div class="card-body">
+					    	<h5 class="card-title">Sexta-feira 25/01 | 23h</h5>
+					    	<p class="card-text">Role 13<br>Mooca</br>$</p>
+					    	<a href="#" class="btn btn-primary">Saiba mais</a>
+					 	</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- SEGUNDA SECAO - EVENTOS POR LOCALIZACAO -->
+
+		<section class="localizacao container-fluid">
+			<h4>Localização</h4>
+
+			<div class="row">
+				
+				<div class="col-sm-9  coluna">
+
+					<form>
+					  <div class="form-row align-items-center">
+
+					  	  <div class="bairro">
+					      <label class="mr-sm-2 bairro" for="inlineFormCustomSelect">Cidade</label>
+					      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+					        <option selected>Escolher...</option>
+					        <option value="1">ABC</option>
+					        <option value="2">DEF</option>
+					        <option value="3">GHI</option>
+					        <option value="4">JKL</option>
+					        <option value="5">LMN</option>
+					      </select>
+					  	  </div>
+
+					    <div class="bairro">
+					      <label class="mr-sm-2" for="inlineFormCustomSelect">Região</label>
+					      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+					        <option selected>Escolher...</option>
+					        <option value="1">Norte</option>
+					        <option value="2">Sul</option>
+					        <option value="3">Leste</option>
+					        <option value="4">Oeste</option>
+					        <option value="5">Central</option>
+					      </select>
+					    </div>
+
+					      <div class="bairro">
+					      <label class="mr-sm-2 bairro" for="inlineFormCustomSelect">Bairro</label>
+					      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+					        <option selected>Escolher...</option>
+					        <option value="1">Anhangabaú</option>
+					        <option value="2">Bixiga</option>
+					        <option value="3">Consolação</option>
+					        <option value="4">Dirceu</option>
+					        <option value="5">Luz</option>
+					      </select>
+					  	  </div>
+
+					  	<div class="bairro">
+					      <label class="mr-sm-2 bairro" for="inlineFormCustomSelect">Raio</label>
+					      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+					        <option selected>Escolher...</option>
+					        <option value="1">até 2km</option>
+					        <option value="2">até 3km</option>
+					        <option value="3">até 4km</option>
+					        <option value="4">ate 5km</option>
+					        <option value="5">até 10km</option>
+					        <option value="6">+10km</option>
+					      </select>
+					  	  </div>
+
+					  </div>
+					</form>
+
+				</div>
+			<div class="row">
+				<div class="coluna btn">
+					    <div class="custom-control custom-checkbox mr-sm-2">
+					        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+					        <label class="custom-control-label" for="customControlAutosizing">Remember my preference</label>
+					    </div>
+					    
+					    <div class="col-auto my-1">
+					      <button type="submit" class="btn btn-primary">Submit</button>
+					    </div>
+				</div>
+			</div>
+
+
+			</div>
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58515.56956759646!2d-46.68232493565875!3d-23.560429583735832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ff709da0b7%3A0x9f83551d08dba748!2sMemorial+da+Am%C3%A9rica+Latina!5e0!3m2!1spt-BR!2sbr!4v1515689186732" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	
+		</section>
+	</body>
+
+</html>

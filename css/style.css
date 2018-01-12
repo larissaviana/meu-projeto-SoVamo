@@ -1,0 +1,45 @@
+header{
+	padding-top: 15%;
+	padding-bottom: 5%;
+	background-color: #d4d4d4;
+	background-image: url("../img/bkg.jpg");
+	background-size: 100%;
+}
+
+.coluna{
+	/*height: 30px;
+	background-color: red; */
+	text-align: center;
+}
+
+.espacamento{
+	margin-bottom: 12%;
+	margin-top: 5%;
+}
+
+.datas{
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 10%;
+
+}
+
+.localizacao{
+	margin-left: 2%;
+	padding-top: 2%;
+	background-color: rgba(221,203,238,0.5);
+	opacity: 5%;
+	padding-bottom: 5%;
+}
+
+.bairro{
+	margin-left: 5%;
+}
+
+.btn-primary{
+	padding-top: 5%; 
+}
+
+.btn-menu{
+	align-self: center;
+}
